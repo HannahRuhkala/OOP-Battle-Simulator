@@ -1,7 +1,7 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "The Colusseum of Cantions"
+ARENA_NAME = "The Colusseum of Cantations"
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
     print("Will he play the game of death to live or die to give another life.")
 
-    secondGoblin = Goblin("Nicky")
+    secondGoblin = Goblin("Nikki")
     
     print(f"{secondGoblin.name} enters the arena with {secondGoblin.health} health.")
     print("Will he play the game of death to live or die to give another life.")
